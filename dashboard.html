@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width,initial-scale=1" name="viewport">
+        <title>Dashboard</title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+        <link href="assets/css/bootstrap.v5.min.css" rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+        <link href="assets/css/main.css" rel="stylesheet">
+        <link href="assets/css/form-outline.css" rel="stylesheet">
+        <link href="assets/css/responsive.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--Header start-->
+        <header id="header" class="header fixed-top d-flex align-items-center">
+            <div class="d-flex align-items-center justify-content-between">
+                <img src="assets/image/cylsys-post.png" alt="" width="100%">
+                <i class="toggle-sidebar-btn pe-2">
+                    <i class="fa-solid fa-bars"></i>
+                </i>
+
+            </div>
+            <nav class="header-nav ms-auto">
+                <ul class="d-flex align-items-center">
+                    <li class="nav-item dropdown pe-4 list-inline"><a class="nav-link dropdown-toggle text-black small"
+                            href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">User</a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                            <li><a class="dropdown-item d-flex align-items-center" href="login.html"><i
+                                        class="fa fa-sign-out"></i>
+                                    <span>Logout</span></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!--Header end-->
+        <!--artical start-->
+        <!--Sidebar start-->
+        <!--left panel start-->
+        <div cy-include-html="assets/includes/left-panel.html"></div>
+        <!--left panel end-->
+        <!--Sidebar end-->
+        <!--Main start-->
+        <main id="main" class="main">
+            <section class="section">
+                <!--Table code start-->
+                <div class="row mt-3">
+                    <div class="col-sm-6 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6><b>NEW POST</b></h6><br>
+                                <p><b>Publish to</b></p>
+
+                                <div class="">
+                                    <select id="cars" name="cars" class="form-select">
+                                        <option value="volvo">Select a Social Account</option>
+                                        <option value="saab">Facebook</option>
+                                        <option value="mercedes">Instagram</option>
+                                        <option value="audi">LinkedIn</option>
+                                    </select>
+                                </div>
+
+                                <div class="d-flex justify-content-between rounded mt-3 p-2 "
+                                    style="background-color: grey;">
+                                    <div>
+                                        <p class="d-flex text-white">
+                                            <img src="assets/image/instagram.png"
+                                                alt=""><span style="font-size: 14px; color: black;">Create all your content in one place! To create an
+                                                Instagram story,
+                                                select an Instagram account, and the choose Story. </span></p>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="btn-close" aria-label="Close"></button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between rounded mt-3 p-2 "
+                                style="background-color: grey;">
+                                <div>
+                                    <p class="d-flex text-white"><img src="assets/image/i-sign.png"
+                                            alt=""><span style="font-size: 12px; color: black;">End writer’s block with OwlyWriter AI <br> Stuck starting at a blank page? Let OwlyWriter AI create compelling,on-
+                                                brand social captions for you in seconds.Create a caption now </span>
+                                        </p>
+                                         
+                                </div>
+                                <div>
+                                    <button type="button" class="btn-close" aria-label="Close"></button>
+                                </div>
+                            </div><br>
+                            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2nd -->
+                    <div class="col-sm-6 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title"><b>Last Schedule</b></h6><br>
+                                <div class="text-center">
+                                    <img src="assets/image/schedule.jpg" alt="">
+                                </div><br>
+                                <h6 class="card-title"><b>12 December 2024</b></h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <!--Table code end-->
+
+                </div>
+            </section>
+
+
+        </main>
+        <!--Main end-->
+        <!--artical end-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/cy.js"></script>
+        <script src="assets/js/newscript.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial;
+
+    }
+
+    .split {
+      height: 100%;
+      width: 50%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+
+    .left {
+      left: 0;
+
+    }
+
+    .right {
+      right: 0;
+      background-image: url(assets/image/reg-back.png);
+    }
+
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .centered img {
+      width: 150px;
+    }
+
+    input[type=text],
+    input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    /* Set a style for all buttons */
+    button {
+      background-color: #04AA6D;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    button:hover {
+      opacity: 0.8;
+    }
+
+    /* Extra styles for the cancel button */
+    .cancelbtn {
+      width: auto;
+      padding: 10px 18px;
+      background-color: #f44336;
+    }
+
+    /* Center the image and position the close button */
+    .imgcontainer {
+      text-align: center;
+      margin: 24px 0 12px 0;
+      position: relative;
+    }
+
+    img.avatar {
+      width: 40%;
+      border-radius: 50%;
+    }
+
+    .container {
+      padding: 16px;
+    }
+
+    span.psw {
+      float: right;
+      padding-top: 16px;
+    }
+  </style>
+  </style>
+</head>
+
+<body>  
+
+
+  <div class="split left">
+
+    <div class="centered">
+      <div class="row"> <img src="assets/image/social-post.png" /></div>
+
+
+      <form action="/action_page.php" method="post">
+
+
+        <div class="container">
+          
+          <label for="uname">Email</label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+
+          <label for="psw">Password</label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <button type="submit"><a href="regisstration form.html">Login</a> </button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+  <div class="split right">
+    <div class="centered">
+      <p style="color: white;font-size: 24px; font-family: 'Markarzi Text';"><b>Cylsys AI Assistant Becomes</b>
+      </p>
+      <p style="color: white;font-size: 24px; font-family: 'Markarzi Text';">Social Media Smart</p>
+      <p style="color: white;font-size: 13px; font-family: 'Markarzi Text';">Create AI-tailored Content, Designed
+        Specifically for Your</p>
+      <p style="color: white;font-size: 13px; font-family: 'Markarzi Text';">Audience And Social Network ,
+        Available to all.</p>
+      <img src="assets/image/left.png" alt="">
+      <img src="assets/image/right.png" alt="">
+    </div>
+  </div>
+  </div>
+
+</body>
+
+</html>
